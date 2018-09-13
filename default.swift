@@ -1,5 +1,7 @@
 import SwiftEngine
 
+//se: require /common.swift
+
 func entryPoint(ctx: RequestContext) {
 	
 	ctx.addHandler(forMethod:"GET", withRoute:"*"){
