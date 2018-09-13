@@ -6,7 +6,7 @@ func entryPoint(ctx: RequestContext) {
 	
 	ctx.addHandler(forMethod:"GET", withRoute:"*"){
 		req, res in
-		res.write("Hello from SwiftEngine! ")
+		res.write("Hello from SwiftEngine! (v77) ")
 		Common.printContextInfo(for: ctx)
 	}
 	
