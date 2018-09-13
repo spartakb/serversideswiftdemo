@@ -14,7 +14,7 @@ func entryPoint(ctx: RequestContext) {
 	// read more at: https://kb.swiftengine.io/requestHandlers
 	ctx.addHandler(forMethod:"GET", withRoute:"*"){
 		req, res in
-		res.write("Hello from SwiftEngine! ")
+		res.write("Hello from SwiftEngine! (v2) ")
 		Common.printContextInfo(for: ctx)
 	}
 	
