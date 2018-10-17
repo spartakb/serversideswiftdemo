@@ -8,7 +8,7 @@ func entryPoint(ctx: RequestContext) {
 	
 	ctx.addHandler(forMethod:"GET", withRoute:"*"){
 		req, res in
-		res.write("Hello from ServerSideSwift! (v56) ")
+		res.write("Hello from ServerSideSwift! (v57) ")
 		Common.printContextInfo(for: ctx)
 	}
 	
